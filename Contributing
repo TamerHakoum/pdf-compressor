@@ -1,0 +1,22 @@
+** Contributions are welcome! Please open an issue or submit a pull request.
+**4. Commit and Push Your Changes:**
+
+*   Use the following Git commands:
+
+    ```bash
+    git add .        # Add all changes
+    git commit -m "Initial commit: Added PDF compression script and README" # Commit with a message
+    git push origin main # Push to the main branch (or master if it's an older repo)
+    ```
+
+**5. Add a License:**
+
+*   Create a `LICENSE` file in your repository and choose a license (e.g., MIT, GPL, Apache 2.0). This tells others how they can use your code. You can use a website like [https://choosealicense.com/](https://choosealicense.com/) to help you choose a license.
+
+**Important Considerations for GitHub:**
+
+*   **No large files:** Avoid committing large PDF files directly to your repository. GitHub has limits on file sizes, and it's not designed for storing large binary files. Use small example PDFs for testing purposes only.
+*   **Clear documentation:** A good `README.md` is essential. It tells people how to use your code.
+*   **Virtual environments (recommended):** If your script has dependencies (other than built-in Python modules), it's good practice to include a `requirements.txt` file listing those dependencies. You can generate it using `pip freeze > requirements.txt` in your virtual environment. This helps others set up their environment correctly. However, in this case, since the only dependency is the external Ghostscript, you should just mention it in the README file.
+
+By following these steps, you'll have a well-structured and documented project on GitHub that others can easily use and contribute to.
